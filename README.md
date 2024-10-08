@@ -35,30 +35,4 @@ The CREMA-D dataset, comprising 7,442 video and audio files, serves as a valuabl
 3. **Classification**:
    - The integrated features are analyzed using machine learning algorithms, specifically Support Vector Machines (SVMs), to classify the data into discrete emotion categories. Cross-validation techniques are employed to evaluate the model’s performance and determine the optimal configuration.
 
-### Objectives
 
-The primary objective of this project is to develop an accurate and efficient emotion detection system capable of handling the complexities of multimodal data in autonomous vehicles. Beyond enhancing safety, the system also aims to:
-- Improve driver and passenger comfort.
-- Reduce stress through adaptive in-car systems.
-- Enable a more personalized and responsive driving experience.
-
-## Keywords
-
-- Audio-Visual Emotion Recognition
-- Multimodal Analysis
-- Feature Extraction Techniques
-- Pre-trained Models
-- Fusion Techniques
-- Deep Learning
-- Machine Learning
-
-## Conclusion
-
-The proposed audio-visual emotion recognition system demonstrates substantial advancements in the accuracy and applicability of emotion detection in autonomous vehicles. By integrating advanced feature extraction and fusion methods, the system not only aims to prevent accidents but also enhances the overall driving experience by responding adaptively to the emotional states of the vehicle's occupants.
-
-## References
-
-- CREMA-D Dataset
-- VGG19 Model
-- Support Vector Machines (SVM)
-- Mel Spectrograms
