@@ -11,7 +11,7 @@ s3_client = boto3.client(
     endpoint_url=host,
     aws_access_key_id=os.environ['AWS_ACCESS_KEY_ID'],
     aws_secret_access_key=os.environ['AWS_SECRET_ACCESS_KEY'],
-    verify=r'D:\certificates\IAV-Root-CA.cer'  # Update to the correct path
+    verify=r'C:\Downloads\IAV-CA-Bundle.crt'  # Set to the full path of your certificate
 )
 
 # Specify your bucket name
@@ -22,7 +22,7 @@ local_file_path = r'D:\Dataset\test.txt'  # Update this path to your actual file
 normalized_file_path = os.path.abspath(local_file_path)  # Normalize the file path
 print(f"Normalized file path: {normalized_file_path}")
 
-file_name_in_s3 = 'Dataset'  # This is how the file will be named in S3
+file_name_in_s3 = 'Dataset/test.txt'  # Adjusted to include the file name
 
 # Check if the local file exists and has the right permissions
 if not os.path.isfile(normalized_file_path):
@@ -39,4 +39,3 @@ except boto3.exceptions.S3UploadFailedError as e:
     print(f"Failed to upload {normalized_file_path} to {bucket_name}: {e}")
 except Exception as e:
     print(f"An unexpected error occurred: {str(e)}")
-
