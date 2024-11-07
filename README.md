@@ -1,4 +1,3 @@
-# Audio-Visual Emotion Detection
 
 ## Overview
 
