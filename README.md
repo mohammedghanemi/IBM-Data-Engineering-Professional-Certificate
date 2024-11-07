@@ -1,5 +1,4 @@
-# Multi-Modal-Emotion-Recognition
-# Audio-Visual Emotion Recognition for Autonomous Vehicles
+# Audio-Visual Emotion Detection
 
 ## Overview
 
