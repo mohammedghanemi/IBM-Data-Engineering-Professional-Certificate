@@ -1,36 +1,77 @@
+# 📊 IBM Data Engineering Professional Certificate – Personal Repository
 
-## Overview
+This repository contains my personal notes, exercises, and projects while completing the **[IBM Data Engineering Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-engineer)**.  
+It documents my learning journey through all **16 courses**, with hands-on labs, coding assignments, and projects that I’ve completed along the way.
 
-Emotional expressions are behaviors that communicate one’s emotional state or attitude to others, conveyed through both verbal and non-verbal channels. A comprehensive understanding of complex human behavior necessitates an analysis of physical features derived from a multitude of modalities, predominantly those pertaining to the face, voice, and physical gestures. Recent studies in multimodal emotion recognition underscore the necessity of integrating these modalities for a comprehensive analysis of human behavior.
+---
 
-In this project, we introduce a novel approach to audio-visual emotion recognition using the CREMA-D dataset, focusing on enhancing safety and user experience in autonomous vehicles. Our approach investigates advanced feature extraction techniques and fusion strategies, including early, late, and hybrid fusion techniques. We employ pre-trained models, such as VGG19, to extract features from both audio and video modalities, aiming to improve the accuracy of emotion recognition in real-world driving scenarios.
+## 🎯 About the Program
+The IBM Data Engineering Professional Certificate is designed to build **job-ready skills** for a career in **Data Engineering**.  
 
-### Key Contributions:
-- **Feature Extraction**: Utilizes state-of-the-art models, such as VGG19, for extracting detailed visual features from video frames and mel spectrograms from audio signals.
-- **Fusion Techniques**: Applies early fusion techniques by combining audio and video features into a unified representation, enhancing the overall performance of the system.
-- **Classification**: Uses Support Vector Machines (SVM) to classify integrated feature vectors into discrete emotion categories.
-- **Enhanced Driver Experience**: Aims to go beyond accident prevention by improving driver comfort, reducing stress, and enabling adaptive in-car systems that respond to the driver’s emotional state.
+Key topics covered:
+- Python for Data Science & AI  
+- Relational Databases (MySQL, PostgreSQL, IBM Db2)  
+- SQL for Data Analysis  
+- Linux & Shell Scripting  
+- ETL and Data Pipelines (Airflow, Kafka, Bash)  
+- Data Warehousing  
+- BI Dashboards (IBM Cognos, Google Looker)  
+- NoSQL Databases (MongoDB, Cassandra, Cloudant)  
+- Big Data with Hadoop & Apache Spark  
+- Machine Learning with Spark MLlib  
+- Generative AI in Data Engineering  
 
-Our results demonstrate significant improvements in emotion recognition accuracy, providing valuable insights into the integration of emotion analysis in automotive systems to enhance safety, comfort, and overall driving experience.
+Upon completion, learners earn an **IBM Professional Certificate** and build a portfolio of projects that demonstrate applied skills.
 
-## Introduction
+---
 
-Multimodal emotion detection has gained prominence in recent years due to its potential to enhance the accuracy and robustness of emotion recognition systems. By integrating multiple modalities, including audio and visual data, a more comprehensive understanding of emotional expressions can be achieved by capturing complementary information that may be overlooked when relying on a single modality.
+## 🛠️ Skills & Tools Learned
+- **Programming:** Python, Bash, SQL  
+- **Databases:** MySQL, PostgreSQL, IBM Db2, MongoDB, Cassandra, Cloudant  
+- **Big Data & Processing:** Hadoop, Apache Spark, Spark SQL, Spark MLlib, Spark Streaming  
+- **Data Engineering Tools:** Airflow, Kafka, Data Pipelines, ETL  
+- **Data Warehousing & BI:** Cognos Analytics, Google Looker  
+- **Linux/Unix:** Shell scripting, system operations  
+- **Generative AI** for automating & enhancing data workflows  
 
-### Dataset
+---
 
-The CREMA-D dataset, comprising 7,442 video and audio files, serves as a valuable resource for investigating multimodal approaches as it includes a diverse range of emotional expressions in both modalities.
+## 📑 Applied Learning Projects
+Some of the key projects I’ll be working on:
+- Designing relational databases for a business use case  
+- Writing SQL queries for real datasets (census, crime, demographics)  
+- Building ETL pipelines with Airflow & Kafka  
+- Creating data warehouses for analytics  
+- Developing BI dashboards  
+- Working with NoSQL & unstructured data  
+- Training ML models with Spark MLlib  
+- Completing a **Capstone Project** that integrates everything  
 
-### Methodology
+---
 
-1. **Feature Extraction**:
-   - **Visual Features**: The Visual Geometry Group 19 (VGG19) convolutional neural network (CNN) is used for extracting detailed visual features from video frames.
-   - **Audio Features**: Mel spectrograms, which convert audio signals into visual representations, allow for the application of VGG19 to audio data by resizing the spectrograms to align with the input specifications of the model.
+## ✅ Course Progress
+- [ ] 01 - Introduction to Data Engineering  
+- [ ] 02 - Python for Data Science, AI & Development  
+- [ ] 03 - Python Project for Data Engineering  
+- [ ] 04 - Introduction to Relational Databases (RDBMS)  
+- [ ] 05 - Databases and SQL for Data Science with Python  
+- [ ] 06 - Hands-on Introduction to Linux Commands and Shell Scripting  
+- [ ] 07 - Relational Database Administration (DBA)  
+- [ ] 08 - ETL and Data Pipelines with Shell, Airflow and Kafka  
+- [ ] 09 - Data Warehouse Fundamentals  
+- [ ] 10 - BI Dashboards with IBM Cognos Analytics and Google Looker  
+- [ ] 11 - Introduction to NoSQL Databases  
+- [ ] 12 - Introduction to Big Data with Spark and Hadoop  
+- [ ] 13 - Machine Learning with Apache Spark  
+- [ ] 14 - Data Engineering Capstone Project  
+- [ ] 15 - Generative AI: Elevate your Data Engineering Career  
+- [ ] 16 - Data Engineering Career Guide and Interview Preparation  
 
-2. **Fusion Techniques**:
-   - **Early Fusion**: This involves concatenating or combining features from audio and video data to create a comprehensive, unified representation that capitalizes on the strengths of both modalities.
+---
 
-3. **Classification**:
-   - The integrated features are analyzed using machine learning algorithms, specifically Support Vector Machines (SVMs), to classify the data into discrete emotion categories. Cross-validation techniques are employed to evaluate the model’s performance and determine the optimal configuration.
+## 👨‍💻 Author
+**Name:** Mohammed Ghanemi 
+**LinkedIn:** [www.linkedin.com/in/mohammed-ghanemi]
+**GitHub:** [https://github.com/mohammedghanemi]
 
-
+---
